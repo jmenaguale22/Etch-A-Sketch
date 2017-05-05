@@ -2,7 +2,7 @@
     border: 10px solid red;
     background: red;
     border-radius: 10px;
-    margin: 200px;
+    float: left;
 }
 .container{
     height: 480px;
@@ -18,4 +18,5 @@
     outline: 1px solid;
     float: left;
 }
+
 
