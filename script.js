@@ -20,8 +20,8 @@ $(function(){
     });
 });
 
-$('.resetButton').click(clear);
-
-function clear() {
-	$('.container div').css('background', '#ffffff');
-}
+$(document).ready(function(){
+    $('resetButton').click(function(){
+        ('container div').addClass('reset');
+    });
+});
